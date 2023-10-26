@@ -1,21 +1,19 @@
 package xadrez;
 
-import java.awt.Color;
-
 import camadatabuleiro.Peca;
 import camadatabuleiro.Tabuleiro;
 
 public class XadrezPeca extends Peca {
 	
-	private Color color;
+	private Cor cor;
 
-	public XadrezPeca(Tabuleiro tabuleiro, Color color) {
+	public XadrezPeca(Tabuleiro tabuleiro, Cor cor) {
 		super(tabuleiro);
-		this.color = color;
+		this.cor = cor;
 	}
 
-	public Color getColor() {
-		return color;
+	public Cor getColor() {
+		return cor;
 	}
 
 }
